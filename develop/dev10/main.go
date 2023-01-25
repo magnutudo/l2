@@ -35,9 +35,7 @@ func main() {
 			}
 			break
 		}
-
 		buf = append(buf, tmp[:n]...)
-
 	}
 	fmt.Println(string(buf))
 }
